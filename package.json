@@ -1,0 +1,42 @@
+{
+  "name": "haberler-bot-altyapi",
+  "version": "2.0.0",
+  "description": "BPT.tr sitesinden anlık haberleri Discord sunucunuza otomatik gönderen gelişmiş haber botu",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "news",
+    "bpt",
+    "haber",
+    "turkish",
+    "embed",
+    "slash-commands",
+    "video-support"
+  ],
+  "author": "jokerizm3169",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jokerizm3169/haberler-bot-altyapi.git"
+  },
+  "homepage": "https://github.com/jokerizm3169/haberler-bot-altyapi#readme",
+  "bugs": {
+    "url": "https://github.com/jokerizm3169/haberler-bot-altyapi/issues"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
